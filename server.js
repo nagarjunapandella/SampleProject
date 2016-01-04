@@ -14,7 +14,7 @@ var middleware={
 };
 app.use(middleware.logger);
 app.get("/about",middleware.requireAuthentication, function(req,res){
- res.send('Hello Bitapps....');
+ res.send('Hello Bitapps.... Here is nagarjuna');
 });
 
 app.use(express.static(__dirname +'/public'));
